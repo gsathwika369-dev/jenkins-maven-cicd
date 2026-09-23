@@ -1,13 +1,13 @@
-<%@ page import="com.student.app.GreetingService" %>
-<%
-    GreetingService service = new GreetingService();
-%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
-<head><title>Jenkins CI/CD Assignment</title></head>
-<body style="font-family: sans-serif; margin: 40px;">
-    <h1><%= service.getGreeting() %></h1>
-    <h2>Build Version: <%= service.getVersion() %></h2>
-    <p>Server time: <%= new java.util.Date() %></p>
+<head>
+    <title>Student CI/CD Demo</title>
+</head>
+<body>
+    <h1>Welcome to Jenkins Maven CI/CD Pipeline Lab</h1>
+    <p>Application successfully deployed via automated pipeline!</p>
 </body>
 </html>
+
 
